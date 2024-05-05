@@ -38,7 +38,7 @@
     "Python.TextCorrection.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "AlexeyBranch",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,7 +64,7 @@
       <updated>1714558950403</updated>
       <workItem from="1714558951610" duration="2222000" />
       <workItem from="1714561974276" duration="89000" />
-      <workItem from="1714562094167" duration="4185000" />
+      <workItem from="1714562094167" duration="4557000" />
     </task>
     <servers />
   </component>
