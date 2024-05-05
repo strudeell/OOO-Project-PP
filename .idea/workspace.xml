@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99192ced-f2c9-4b26-8fba-906c3fc34c20" name="Changes" comment="" />
+    <list default="true" id="99192ced-f2c9-4b26-8fba-906c3fc34c20" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextCorrection.py" beforeDir="false" afterPath="$PROJECT_DIR$/TextCorrection.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +37,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.FindBorders.executor": "Run",
+    "Python.NeuralNetwork.executor": "Run",
+    "Python.TextCorrection.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "AlexeyBranch",
@@ -62,6 +67,7 @@
       <updated>1714558950403</updated>
       <workItem from="1714558951610" duration="2222000" />
       <workItem from="1714561974276" duration="89000" />
+      <workItem from="1714562094167" duration="3007000" />
     </task>
     <servers />
   </component>
@@ -70,5 +76,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OOO_Project_PP$FindBorders.coverage" NAME="FindBorders Coverage Results" MODIFIED="1714560093029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OOO_Project_PP$TextCorrection.coverage" NAME="TextCorrection Coverage Results" MODIFIED="1714919572264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OOO_Project_PP$NeuralNetwork.coverage" NAME="NeuralNetwork Coverage Results" MODIFIED="1714918816741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
