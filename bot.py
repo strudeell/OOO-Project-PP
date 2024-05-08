@@ -21,10 +21,6 @@ async def photo_handler(message: Message) -> None:
     file_name = f"photos/{message.photo[-1].file_id}.jpg"
     await message.bot.download(file=message.photo[-1].file_id, destination=file_name)
     await message.answer('Спасибо за фото, началась обработка информации')
-    time.sleep(7)
-    await message.answer('Ваш текст с картинки выглядит так:\n'
-                         '\n'
-                         'АЛФАВИТ')
 
 async def main():
     await dp.start_polling(bot)
