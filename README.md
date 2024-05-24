@@ -22,7 +22,7 @@ Versions of the main libraries:
 Libraries versions were used with:
 * python-3.11
 
-You can also use the project with our telegram bot https://t.me/rectext_bot.
+You can also use the project with our telegram bot https://t.me/rectext_bot (doesn't work yet, still under development).
 
 ## Help
 
