@@ -1,5 +1,5 @@
 import asyncio
-import time
+import result_predict
 
 from aiogram import Bot, Dispatcher, F
 from aiogram.filters import CommandStart
@@ -17,10 +17,15 @@ async def start_message(message: Message):
                          'Отправьте нам фото с рукописным текстом')
 
 @dp.message(F.photo)
-async def photo_handler(message: Message) -> None:
-    file_name = f"photos/{message.photo[-1].file_id}.jpg"
-    await message.bot.download(file=message.photo[-1].file_id, destination=file_name)
+async def photo_handler(message: Message) -> str:
+    id_photo = message.photo[-1].file_id
+    file_name = f"photos/{id_photo}.jpg"
+    await message.bot.download(file=id_photo, destination=file_name)
     await message.answer('Спасибо за фото, началась обработка информации')
+    result = result_predict.start(file_name)
+    await message.answer('Вот ваш текст:\n'
+                         f'{result}\n')
+    return id_photo
 
 async def main():
     await dp.start_polling(bot)
