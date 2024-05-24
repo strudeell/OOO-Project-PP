@@ -13,7 +13,7 @@
 
 ## How to use the project
 
-Download the files from the "module" directory and import the project into your program using the "use_module" file.
+### Download the files from the "module" directory and import the project into your program using the "use_module" file.
 
 Versions of the main libraries:
 * tensorflow-2.15.0
